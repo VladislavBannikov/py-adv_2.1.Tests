@@ -31,3 +31,7 @@ class TestTrans(unittest.TestCase):
         word_eng = None
         res = self.app_trans.trans_text(word_eng)
         self.assertNotEqual(res.status_code, 200)
+
+if __name__ == '__main__':
+    unittest.main()
+
